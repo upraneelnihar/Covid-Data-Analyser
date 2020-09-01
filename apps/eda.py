@@ -25,7 +25,7 @@ def load_state_wise_data():
     return df_daily
 
 def app():
-    st.title('Exploration Data Analysis')
+    st.title('Explore Data')
     st.markdown('In this page we will visualize the covid numbers for `Confirmed`, `Deceased`, `Recovered` at `All India` and `State` level.')
 
     df_daily = load_state_wise_data()
